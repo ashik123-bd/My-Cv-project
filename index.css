@@ -1,0 +1,88 @@
+*{
+  
+    margin: 0 auto;
+    padding: 0 auto;
+}
+body{
+    background-color: #fcfaf2;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container{
+    max-width: 1000%;
+    background-color: rgb(198, 199, 195);
+    margin: 0 auto;
+}
+
+.profile-image{
+    width: 100px;
+    height: 120px;
+    border-radius: 50%;
+    padding: 20px;
+    float: left;
+}
+.bio{
+    float:left;
+    padding-top: 30px;
+}
+
+.header-contact{
+    float: right;
+    padding: 30px;
+   
+}
+.header-contact a{
+    text-decoration: none;
+    color: rgb(43, 42, 41);
+    font-weight: bold;
+}
+
+.header-contact a:hover{
+    color: rgb(98, 11, 212);
+    background-color: black;
+}
+.clear-div-all{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+    
+
+h1,h2,h3,h4,h5,h6{
+    color: red;
+}
+
+/*---Personal Section start here---*/
+
+#personal-section{
+
+}
+.content{
+    margin-bottom: 30px;
+}
+
+.left-div{
+    width: 30%;
+    float: left;
+
+}
+
+.right-div{
+    width: 70%;
+    float: left;
+
+}
+
+.common-hr{
+    border: 1px solid black;
+    border-bottom: none;
+    margin:20px auto;
+    width: 100%;
+}
+/*---Personal Section end here---*/
+
